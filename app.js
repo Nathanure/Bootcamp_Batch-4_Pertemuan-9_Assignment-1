@@ -115,6 +115,7 @@ yargs.command({
         };
         // Input the data inside JSON
         cli.updateJSON(argv.oldname, argv.newname, argv.newemail, argv.newmobile);
+        // Delete the data inside JSON
         cli.deleteJSON(argv.oldname);
     }
 })
